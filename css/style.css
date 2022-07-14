@@ -1,0 +1,50 @@
+
+:root {
+--lb-black: #241F20;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    background-image: url(../img/characters/character-frankie.svg);
+    background-size:150px;
+    background-repeat: no-repeat;
+    background-position: 102% 100%;
+  }
+
+.logo-navbar{
+    width:120px;
+}
+
+h2{
+    font-weight: 900;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu-item{
+    margin-bottom: 5px;;
+}
+
+.bg-lb-black{
+    background-color: var(--lb-black);
+    color: white;
+}
+
+
+@media (max-width:767px){
+    .border-end-remove-mobile{
+        border-right:0 solid transparent!important;
+    }
+    .border-top-add-mobile{
+        border-top:3px solid var(--lb-black)!important;
+    }
+    .border-navbar{
+        border:3px solid var(--lb-black);
+        border-bottom: none;
+    }
+}
+
+
