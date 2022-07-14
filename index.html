@@ -16,10 +16,12 @@
     <meta name="theme-color" content="#231F20" media="(prefers-color-scheme: dark)">
 
     <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/595e4f1672.js" crossorigin="anonymous"></script>
 
     <!-- Primary Meta Tags -->
     <title>🍕 LeBronx Pizza | Chelsea QC</title>
@@ -43,50 +45,212 @@
         content="🗽NYC-inspired 🍕pizza in the ❤️ of Chelsea, Quebec. Food by Paco. Art by Loogart.">
     <meta property="twitter:image" content="https://lebronx.ca/img/og-image.jpg">
 
-    <style>
-      body{
-        font-family: 'Poppins', sans-serif;
-      }
-      .wallpaper{
-        height:100vh;
-        width:100%;
-        display: block;
-        background-image: url(./img/bg-artwork-loogart.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-      }
-      @media (max-width:767px){
-        .wallpaper{
-          background-position: 16%;
-        }
-      }
-    </style>
   </head>
   <body>
-    <div class="alert bg-dark text-white rounded-0 mb-0" role="alert">
-      <div class="container text-center">
-      🚀 Soft Launch: <strong>July 15<sup>th</sup>, 2022 @ 11 a.m.</strong> 
-      <small><a href="https://goo.gl/maps/NqBD96foVmWvNfsT7" class="d-block text-light" target="_blank">181 Ch. Old Chelsea, Chelsea, QC</a></small>
-    </div>
-    </div>
-    <!-- <div class="m-2 border border-4 border-dark d-block d-sm-none rounded-2 py-5">
+    <nav class="navbar navbar-expand-lg border-navbar bg-white">
       <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-8 text-center">
-            <img src="./img/artwork-llcooljane.svg" class="img-fluid" alt="" style="max-width:240px">
-          </div>
+        <a class="navbar-brand" href="#"><img src="./img/characters/logo-full-pizza.svg" alt="" width="200" height="" class="d-inline-block align-text-top"></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered text-dark"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#slushies"><i class="fa-solid fa-cup-straw me-1"></i>Slushies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#slices"><i class="fa-solid fa-pizza-slice me-1"></i>Slices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#pizza"><i class="fa-solid fa-pizza me-1"></i>Whole pies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#grabandgo"><i class="fa-solid fa-rabbit-running me-1"></i>Grab & Go</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#softdrinks"><i class="fa-solid fa-cup-straw-swoosh me-1"></i>Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#"><i class="fa-solid fa-globe me-2"></i>English</a>
+            </li>
+          </ul>
         </div>
-      </div>    
-    </div> -->
-    <div class="wallpaper">
-      <h1 class="visually-hidden">LeBronx Pizza</h1>
-    </div>
-    <footer>
-      <div class="container text-center pt-3 pb-4">
-        <small>© 2022. Food by <a class="text-dark" href="https://www.instagram.com/pacocroissanterie/" target="_blank">Paco</a>. Art by <a class="text-dark" target="_blank" href="https://loogart.com">Loogart</a>.</small>
+      </div>
+    </nav>
+
+    <section>
+      <div class="container bg-white">
+
+        <div class="row justify-content-center align-items-center border-start border-top border-end border-3 border-dark p-4">
+
+          <div class="col-md-3 col-lg-2 d-none d-md-block">
+            <img src="./img/artwork-llcooljane.svg" alt="">           
+          </div>
+
+          <div class="col-md-7 col-lg-8">
+            <h1 class="fw-bold">NYC-inspired pizza</h1>
+            <ul class="list-unstyled">
+              <li> <a class="text-dark" href="https://goo.gl/maps/j6UXTsiJnLASQ9ST8" target="_blank"><i class="fa-solid fa-location-check me-2"></i>181 chemin Old Chelsea, Chelsea, Quebec</a></li>
+              <li><a class="text-dark" href="tel:18198274471" target="_blank"><i class="fa-solid fa-phone me-2"></i>819.827.4471</a></li>
+              <p><i class="fa-solid fa-clock me-2"></i>Thursday-Sunday, 11:00 am -  9:00 pm</p>
+            </ul>                   
+            <p class="mb-0"><a href="#menu" class="btn btn-outline-dark rounded-0 border border-3 border-dark"><i class="fa-solid fa-arrow-down-long"></i> View menu</a></p>
+          </div>
+
+          <div class="col-md-3 col-lg-2 d-none d-lg-block">
+            <img src="./img/characters/character-tony.svg" alt="" style="max-width:130px">           
+          </div>
+
+        </div>
+
+        <div class="row justify-content-center border border-3 border-dark" id="menu">
+
+          <div class="col-md-6 col-lg-7 p-4 border-3 border-dark border-end border-end-remove-mobile">
+            <h2 class="fw-bold mb-4" id="pizza">Whole pies 18”</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>Cheezilla</h3>
+              Tomato sauce, remix mozzarella
+            </div>
+              <span class="fs-5 text-end">$23</span>
+            </div>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>Pepe & Roni</h3>
+              Tomato sauce, remix mozzarella, pepperoni
+            </div>
+              <span class="fs-5 text-end">$25</span>
+            </div>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>Queen Maggie</h3>
+              Tomato sauce, remix mozzarella, basil
+            </div>
+              <span class="fs-5 text-end">$25</span>
+            </div>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>Magic Shrooms</h3>
+              White sauce, remix cheese, cheese, garlic, basil
+            </div>
+              <span class="fs-5 text-end">$23</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>For Shizzle my Pickle</h3>
+              White garlic sauce, remix cheese, pickles
+            </div>
+              <span class="fs-5 text-end">$21</span>
+            </div>  
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>The NOTORIOUS</h3>
+              Tomato sauce, remix cheese, pepperoni, sausage
+            </div>
+              <span class="fs-5 text-end">$25</span>
+            </div>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>Freddie</h3>
+              Alfredo sauce, remix cheese, chicken, bacon
+            </div>
+              <span class="fs-5 text-end">$25</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>King B</h3>
+              BBQ Sauce, pulled pork, remix mozzarella, red onions
+            </div>
+              <span class="fs-5 text-end">$26</span>
+            </div> 
+            
+            <div class="d-flex justify-content-between bg-lb-black text-white p-3">
+              <div>
+                <h6>+ Extra magic on your pizza</h6>
+                <small>Hot honey • Ranch dip • Garlic dip • Spicy oil • Chili Flakes • Jalapeños • Habañero • Pickle onions • Truffle oil </small>
+              </div>
+              <span class="fs-5 text-end">$1</span>
+            </div>
+
+          </div>
+
+          <div class="col-md-6 col-lg-5 p-4 mb-4 border-top-add-mobile bg-image-bottom-right">
+            <h2 class="fw-bold mb-4" id="slushies">Slushies</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Arctic Lemonade (8oz)</span>
+              <span class="fs-5 text-end">$5</span>
+            </div>
+
+            <div class="my-4" style="border: 1px dashed #241F20;"></div>
+
+            <h2 class="fw-bold" id="slices">Slices</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Any pizza</span>
+              <span class="fs-5 text-end">$5</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Combo Slice + Soft drink</span>
+              <span class="fs-5 text-end">$8</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Combo 2 Slices + Soft drink</span>
+              <span class="fs-5 text-end">$10</span>
+            </div>    
+
+            <div class="my-4" style="border: 1px dashed #241F20;"></div>   
+
+            <h2 class="fw-bold" id="grabandgo">Grab & Go</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Salads (Cesar)</span>
+              <span class="fs-5 text-end">$7</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Cheesecake</span>
+              <span class="">Coming soon 👀</span>
+            </div>            
+
+            <div class="my-4" style="border: 1px dashed #241F20;"></div>   
+            
+            <h2 class="fw-bold" id="softdrinks">Drinks</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>San Pellegrino</span>
+              <span class="fs-5 text-end">$3</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>City Seltzer</span>
+              <span class="fs-5 text-end">$4</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Soft drink (can)</span>
+              <span class="fs-5 text-end">$2</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Root Beer (bottle)</span>
+              <span class="fs-5 text-end">$4</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Orangina (bottle)</span>
+              <span class="fs-5 text-end">$3</span>
+            </div> 
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="container bg-lb-black p-4">
+      <div class="d-flex flex-wrap justify-content-between align-items-center">
+        <div class="col-md-5 d-flex align-items-center">
+          <small class="mb-4 mb-md-0">© 2022 LeBronx Pizza Inc. Visual design by <a class="text-white" href="https://loogart.com" target="_blank">Loogart</a>.</small>
+        </div>      
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-white" href="https://www.instagram.com/lebronxpizza/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+          <li class="ms-3"><a class="text-white" href="https://www.facebook.com/lebronxpizza/" target="_blank"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+        </ul>
       </div>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
