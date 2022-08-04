@@ -56,20 +56,31 @@
     </script>
   </head>
   <body>
-
     <nav class="navbar navbar-expand-lg border-navbar bg-white">
-      <div class="container-xxl">
-        <a class="navbar-brand" href="./"><img src="./img/characters/logo-full-pizza.svg" alt="" width="200" height="" class="d-inline-block align-text-top"></a>
+      <div class="container">
+        <a class="navbar-brand" href="./en"><img src="./img/characters/logo-full-pizza.svg" alt="" width="200" height="" class="d-inline-block align-text-top"></a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa-solid fa-bars-staggered text-dark"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="https://lebronxpizza.square.site"><i class="fa-solid fa-hand-pointer me-1"></i>Order online</a>
+              <a class="nav-link text-dark" href="#slushies"><i class="fa-solid fa-cup-straw me-1"></i>Slushies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="https://www.order.store/ca/store/lebronx-pizza/8bHdRIYDWZi4k-kPAAq1Tg" target="_blank"><i class="fa-solid fa-car-alt me-1"></i>Delivery</a>
+              <a class="nav-link text-dark" href="#slices"><i class="fa-solid fa-pizza-slice me-1"></i>Slices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#pizza"><i class="fa-solid fa-pizza me-1"></i>Whole pies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#grabandgo"><i class="fa-solid fa-rabbit-running me-1"></i>Grab & Go</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#softdrinks"><i class="fa-solid fa-cup-straw-swoosh me-1"></i>Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-sm btn-dark mx-md-2" href="https://lebronxpizza.square.site"><i class="fa-solid fa-hand-pointer me-1"></i>Order online</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="./"><i class="fa-solid fa-globe me-2"></i>Français</a>
@@ -80,7 +91,7 @@
     </nav>
 
     <section>
-      <div class="container-xxl bg-white">
+      <div class="container bg-white">
 
         <div class="row justify-content-center align-items-center border-start border-top border-end border-3 border-dark p-4">
 
@@ -95,8 +106,8 @@
               <p><i class="fa-solid fa-clock me-2"></i>Thursday-Sunday, 11:30 am -  9:00 pm</p>
             </ul>                   
             <p class="mb-0">
-              <a href="https://lebronxpizza.square.site" class="btn btn-dark rounded-0 border border-3 border-dark mb-3 mb-sm-0 me-md-2"><i class="fa-regular fa-hand-pointer me-2"></i>Order for pickup</a>
-              <a href="https://www.order.store/ca/store/lebronx-pizza/8bHdRIYDWZi4k-kPAAq1Tg" target="_blank" class="btn btn-outline-dark rounded-0 border border-3 border-dark  mb-3 mb-sm-0"><i class="fa-solid fa-car-alt"></i> Delivery</a>
+              <a href="#menu" class="btn btn-outline-dark rounded-0 border border-3 border-dark mb-3 mb-md-0 me-md-2 d-inline-block d-md-none"><i class="fa-solid fa-arrow-down-long"></i> View menu</a>
+              <a href="https://lebronxpizza.square.site" class="btn btn-dark rounded-0 border border-3 border-dark mb-3 mb-sm-0"><i class="fa-regular fa-hand-pointer me-2 roudned-0"></i>Order online</a>
             </p>
           </div>
 
@@ -107,131 +118,110 @@
         </div>
 
         <div class="row justify-content-center border border-3 border-dark" id="menu">
-          <div class="col-md-12 col-lg-4 p-4 border-3 border-dark border-end-remove-mobile bg-lb-black bg-pepe">
-            <div class="border-dotted p-4">
-            <h2 class="fw-bold mb-4" id="pizza">Pepe & Roni Pies</h2>
-            <div class="menu-item d-flex justify-content-between align-items-center">
-              <div>
-              <h3>The Classic Pepe</h3>
-              Tomato sauce, MozzaREMIX®, Pepperoni and oregano
-            </div>
-              <span class="fs-5 text-end">$27</span>
-            </div>
-            <div class="menu-item d-flex justify-content-between align-items-center">
-              <div>
-              <h3>Mister Roni</h3>
-              Sauce tomate, MozzaREMIX®, peperoni, basil, hot honey
-            </div>
-              <span class="fs-5 text-end">$27</span>
-            </div>
-            <div class="menu-item d-flex justify-content-between align-items-center">
-              <div>
-              <h3>Spicy Pepe</h3>
-              Tomato sauce, MozzaREMIX®, Spicy Pepperoni, pickled jalapeños
-            </div>
-              <span class="fs-5 text-end">$28</span>
-            </div>
-            <div class="menu-item d-flex justify-content-between align-items-center">
-              <div>
-              <h3>Aloha 5.0</h3>
-              Tomato sauce, MozzaREMIX®, Spicy Pepperoni,  pineapple, sesame crust
-            </div>
-              <span class="fs-5 text-end">$28</span>
-            </div> 
-            <div class="menu-item d-flex justify-content-between align-items-center">
-              <div>
-              <h3>The NOTORIOUS</h3>
-              Tomato sauce, MozzaREMIX®, mushrooms, spicy pepperoni, meatballs
-            </div>
-              <span class="fs-5 text-end">$32</span>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-12 col-lg-4 p-4 border-3 border-dark border-end border-end-remove-mobile">
-            <h2 class="fw-bold mb-4" id="pizza">LeBronx Signature Pies</h2>
-            <div class="menu-item d-flex justify-content-between align-items-center">
+
+          <div class="col-md-6 col-lg-7 p-4 border-3 border-dark border-end border-end-remove-mobile">
+            <h2 class="fw-bold mb-4" id="pizza">Whole pies 18”</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
               <div>
               <h3>Cheezilla</h3>
               Tomato sauce, MozzaREMIX®, parmesan & fresh basil
-              </div>
+            </div>
               <span class="fs-5 text-end">$23</span>
             </div>
-            <div class="menu-item d-flex justify-content-between align-items-center">
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
+              <div>
+              <h3>Pepe & Roni</h3>
+              Tomato sauce, MozzaREMIX®, Pepperoni and oregano
+              <div><small><i>+ Add Hot Honey and Basil</i></small></div>
+            </div>
+              <span class="fs-5 text-end">$27</span>
+            </div>
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
               <div>
               <h3>Queen Maggie</h3>
               Tomato sauce, MozzaREMIX®, parmesan, basil
-              </div>
+            </div>
               <span class="fs-5 text-end">$27</span>
             </div>
-            <div class="menu-item d-flex justify-content-between align-items-center">
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
               <div>
               <h3>Cherry Liberty</h3>
               Tomato sauce, black olives, cherry tomatoes, MozzaREMIX®
             </div>
               <span class="fs-5 text-end">$25</span>
             </div> 
-            <div class="menu-item d-flex justify-content-between align-items-center">
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
               <div>
               <h3>Magic Shrooms</h3>
               White sauce, MozzaREMIX®, mushrooms, garlic
               <div><small><i>+ Add White Truffle Oil</i></small></div>
             </div>
               <span class="fs-5 text-end">$29</span>
-            </div>  
-            <div class="menu-item d-flex justify-content-between align-items-center">
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center mb-3">
               <div>
-              <h3>For Shizzle My Pickle</h3>
-              Garlic sauce, MozzaREMIX®, pickles
+              <h3>The NOTORIOUS</h3>
+              Tomato sauce, MozzaREMIX®, spicy pepperoni, meatballs
             </div>
-              <span class="fs-5 text-end">$27</span>
+              <span class="fs-5 text-end">$32</span>
             </div>
-            
           </div>
 
-          <div class="col-md-12 col-lg-4 p-4 mb-4 border-top-add-mobile bg-image-bottom-right">
-            <h2 class="fw-bold mb-4" id="slush">Slushy</h2>
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
-              <span>Slush of the day</span>
+          <div class="col-md-6 col-lg-5 p-4 mb-4 border-top-add-mobile bg-image-bottom-right">
+            <h2 class="fw-bold mb-4" id="slushies">Slushies</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Slushy of the day (8oz)</span>
               <span class="fs-5 text-end">$5.25</span>
             </div>
 
             <div class="my-4" style="border: 1px dashed #241F20;"></div>
 
-            <h2 class="fw-bold" id="pointes">Slices</h2>
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
-              <span>1 slice</span>
+            <h2 class="fw-bold" id="slices">Slices</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Any pizza</span>
               <span class="fs-5 text-end">$4.75</span>
             </div> 
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
-              <span>1 slice + drink</span>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Combo 1 Slice + Beverage</span>
               <span class="fs-5 text-end">$8.25</span>
             </div> 
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
-              <span>2 slices + drink</span>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Combo 2 Slices + Beverage</span>
               <span class="fs-5 text-end">$10.25</span>
             </div>    
-       
+
+            <div class="my-4" style="border: 1px dashed #241F20;"></div>   
+
+            <h2 class="fw-bold" id="grabandgo">Grab & Go</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Salads (Cesar)</span>
+              <span class="fs-5 text-end">$7</span>
+            </div> 
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Cheesecake</span>
+              <span class="">Coming soon 👀</span>
+            </div>            
 
             <div class="my-4" style="border: 1px dashed #241F20;"></div>   
             
-            <h2 class="fw-bold" id="boissons">Drinks</h2>
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
+            <h2 class="fw-bold" id="softdrinks">Drinks</h2>
+            <div class="menu-item d-flex justify-content-between align-items-center">
               <span>San Pellegrino</span>
               <span class="fs-5 text-end">$3.50</span>
             </div> 
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
+            <div class="menu-item d-flex justify-content-between align-items-center">
               <span>City Seltzer</span>
               <span class="fs-5 text-end">$4.50</span>
             </div> 
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
+            <div class="menu-item d-flex justify-content-between align-items-center">
               <span>Soft drink (can)</span>
               <span class="fs-5 text-end">$2.50</span>
             </div> 
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
-              <span>Root beer (bottle)</span>
+            <div class="menu-item d-flex justify-content-between align-items-center">
+              <span>Root Beer (bottle)</span>
               <span class="fs-5 text-end">$4.50</span>
             </div> 
-            <div class="menu-item-small d-flex justify-content-between align-items-center">
+            <div class="menu-item d-flex justify-content-between align-items-center">
               <span>Orangina (bottle)</span>
               <span class="fs-5 text-end">$3.50</span>
             </div> 

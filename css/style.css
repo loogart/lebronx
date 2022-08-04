@@ -25,7 +25,12 @@ h3{
 }
 
 .menu-item{
-    margin-bottom: 5px;;
+    margin-bottom: 32px;
+}
+
+
+.menu-item-small{
+    margin-bottom: 5px;
 }
 
 .bg-lb-black{
@@ -33,8 +38,25 @@ h3{
     color: white;
 }
 
+.border-dark{
+ border-color: var(--lb-black)!important;   
+}
+.btn-dark{
+    background-color: var(--lb-black)!important; 
+}
 
-@media (max-width:767px){
+.border-dotted{
+    border: 2px dotted white;
+}
+
+.bg-pepe{
+    background-image: url(../img/pie-pepe.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50% 130%;
+}
+
+@media (max-width:991px){
     .border-end-remove-mobile{
         border-right:0 solid transparent!important;
     }
@@ -45,6 +67,12 @@ h3{
         border:3px solid var(--lb-black);
         border-bottom: none;
     }
+    .bg-pepe{
+        background-image: url(../img/pie-pepe.png);
+        background-size: 350px;
+        background-position: 50% 126%;
+    }
+    
 }
 
 
